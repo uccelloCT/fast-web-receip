@@ -1,0 +1,43 @@
+<html>
+  <head> 
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script src="semantic/semantic.js"></script>
+  </head>
+  <body>
+  <div class="ui left vertical inverted sidebar labeled icon menu">
+  <a class="item">
+    <i class="search icon"></i>
+    搜索
+  </a>
+  <a class="item" a href="http://www.jw.org" target="_blank">
+    <i class="Building Outline icon"></i>
+    办公室
+  </a>
+  <a class="item">
+    <i class="coffee icon"></i>
+    咖啡厅
+  </a>
+  <a class="item">
+    <i class="smile icon"></i>
+    传道
+  </a>
+  
+</div>
+  <div class="pusher">
+  <button id="Menu"  class="ui icon black button"><i class="content icon"></i>
+  Menu</button>
+   hello
+  </div>
+  <script>
+    $('#Menu').click(function(){
+      $('.ui.labeled.icon.sidebar')
+  .sidebar('toggle');
+    })
+     
+    </script>
+</body>
+</html> 
